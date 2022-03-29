@@ -7,4 +7,6 @@ set autoindent
 
 set wrap
 
+set backspace=2
+
 set background=dark
