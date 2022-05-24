@@ -1,2 +1,2 @@
-# vimrc
-Basic vim settings for fresh install
+# dotfiles
+Settings for fresh install
