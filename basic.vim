@@ -21,3 +21,6 @@ set background=dark
 " If we are editing a makefile
 filetype on
 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
+
+" easy on the eyes colorscheme
+colorscheme desert
