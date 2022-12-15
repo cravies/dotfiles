@@ -17,5 +17,7 @@ set backspace=2
 " Avoid lightmode
 set background=dark
 
-" Allows writing to files with root priviledges
-cmap w!! w !sudo tee % > /dev/null
+" Automatically detect filetype and use tabs instead of spaces
+" If we are editing a makefile
+filetype on
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
