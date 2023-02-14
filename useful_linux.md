@@ -14,3 +14,9 @@ Disk quota usage for current user in human readable format
 ```bash
 quota --user $USER -s
 ```
+
+Search in extended command history for a command (assumes zsh)
+```bash
+keyword="test"
+cat ~/.zsh_history | grep -i $keyword
+```
