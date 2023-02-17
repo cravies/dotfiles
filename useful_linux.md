@@ -20,3 +20,8 @@ Search in extended command history for a command (assumes zsh)
 keyword="test"
 cat ~/.zsh_history | grep -i $keyword
 ```
+
+recursively find files of a certain pattern in subdirectories and sort result
+```bash
+find . -mindepth 1 -type f -name "pattern*.png" | sort
+```
