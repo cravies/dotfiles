@@ -25,3 +25,8 @@ recursively find files of a certain pattern in subdirectories and sort result
 ```bash
 find . -mindepth 1 -type f -name "pattern*.png" | sort
 ```
+
+collate a set of images
+```bash
+montage -mode concatenate -border 5 "$OPT"*.png -tile 6x2 -resize "$size"x"$size" "$OPT"_out.png
+```
