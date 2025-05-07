@@ -29,3 +29,7 @@ colorscheme desert
 nnoremap <F2> :vertical resize +5<CR>
 " f3 shrinks it
 nnoremap <F3> :vertical resize -5<CR>
+
+" highlight search
+set hlsearch
+nnoremap <Esc> :nohlsearch<CR>
