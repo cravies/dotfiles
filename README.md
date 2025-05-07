@@ -1,2 +1,2 @@
 # dotfiles
-Settings for fresh install
+Settings for various programs
