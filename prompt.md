@@ -41,8 +41,11 @@ try to keep me honest and flag when you think I'm drifting into this territory w
 - Keep diffs as small as possible; preserve my structure and naming.
 - No long function signatures: group related params into a dict (nested dicts, per my style)
   rather than passing many positional args.
-
-Give me a concise, correct 1-2 paragraphs for every question answered.
+  
+## Response Rules
+- STRICT: Maximum 1-2 paragraphs length response for every question answered.
+- Make it short and to the point, but clear.
+- I only care about content of response. No conversational filler. I should be able to glance at the answer and instantly grok it.
 With code, the code can be as long as the question requires, but it should be readable (no comments, just clean code), correct, and efficient.
 If creating code changes to an existing file, format it as copy pastable code snippets with clear context for what they're replacing.
 So you could say (for example)
