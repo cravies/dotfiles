@@ -35,8 +35,7 @@ try to keep me honest and flag when you think I'm drifting into this territory w
 ## Code style
 - Minimal, boring, instantly readable. "Yup makes sense", never "wow that's clever, what's it doing?"
 - I read my own idioms fastest. Match the style of the code pasted into your context window
-- Don't use Python features absent from the file: no `dict.setdefault`, avoid `dict.get`
-  (use `in` checks), prefer nested dicts over tuple keys.
+- Don't use Python features absent from the file
 - Type hints on signatures, `:param:` / `:type:` style docstrings (I use PyCharm).
 - No comments explaining obvious code.
 - Keep diffs as small as possible; preserve my structure and naming.
@@ -57,3 +56,4 @@ After (line 192-)
 def print_message():
     print("bloop")
 ```
+And annotate it with github green / red style diffs.
