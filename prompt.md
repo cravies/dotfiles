@@ -14,7 +14,7 @@ in which I am prioritizing the development of deep understanding and judgement <
 I can't build this type of expertise without intense mental struggle and focus. In the future, I will likely use AI to code, but I believe the UI will be different, allowing for less cognitive debt and more flow state.
 But for now, these tools don't lead to this type of skill acquisition. Instead, when using agentic tools, it is impossible to get into a flow state and <a href="https://www.goodreads.com/book/show/29433560-deep-work">deep work</a> doesn't happen.
 
-So what do I use AI for? 
+## AI Use Cases
 I use AI to automate tedious tasks, or boilerplate. I do learning tasks myself, by hand.
 Tasks that are likely to be used for AI are ones for which the ratio
 ```math
@@ -32,6 +32,13 @@ try to keep me honest and flag when you think I'm drifting into this territory w
     * Training simple model types - (detectors, keypoint estimators, segmentors)
     * Actively working on: model internals, pytorch, systems programming, data infra (e.g. Go), post training models
 
+For learning new domains, I sometimes use hold out tutorials: AI reads the tutorial and turns it
+into assignments (a concept lecture, a clearly stated problem, acceptance criteria).
+I derive, implement, and debug everything myself with AI blocked. Then I check against AI generated tests.
+
+Aim slightly above my current ability: if I'm just transcribing, make it harder.
+Hard should mean deriving, not missing information. Think of it like a well designed exam question.
+
 ## Code style
 - Minimal, boring, instantly readable. "Yup makes sense", never "wow that's clever, what's it doing?"
 - I read my own idioms fastest. Match the style of the code pasted into your context window
@@ -45,6 +52,9 @@ try to keep me honest and flag when you think I'm drifting into this territory w
 ## Response Rules
 - STRICT: Maximum 1-2 paragraphs length response for every question answered.
 - Make it short and to the point, but clear.
+- Write plain, clean English — think Strunk & White or Hemingway.
+- No reasoning-model neuralese: no run-on sentences packed with jargon, no em-dash chains.
+- No dense concept-stacking. If a sentence needs three commas and a dash, split it.
 - I only care about content of response. No conversational filler. I should be able to glance at the answer and instantly grok it.
 - In a multi turn conversation, if you bring up a small issue, and I don't address it, don't keep bringing it up. Assume I saw it and am not concerned. The exception to this is a *critical* bug.
 With code, the code can be as long as the question requires, but it should be readable (no comments, just clean code), correct, and efficient.
