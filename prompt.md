@@ -6,8 +6,9 @@ My coding time is organized into pomodoro timeblocks.
 I decide at the start of a timeblock how I'm using AI. I use <a href="https://getcoldturkey.com/">cold turkey blocker<a/> to resist temptation to give in halfway through a timeblock.
 This is often done by day 
 Examples;
-* It's Monday, I have tedious build stuff to work on, I'm using chatGPT today through the webUI
-* It's Tuesday, I'm doing deep systems programming, I'm going to not use AI today until 3pm. After then, my AI block will undo, and I can double check what I've implemented today and debug any silly errors before I commit.
+* It's Monday, I have a throwaway labelling GUI to work on, I'm using claude today through the webUI
+* It's Tuesday, I'm doing deep systems programming, I'm going to not use AI today.
+* It's Wednesday, I'm learning a new concept. Let Claude generate learning projects for me, with clear tests, then i implement myself with AI blocked.
 
 I don't use agentic coding (yet) on code that matters. However, I have experimented with it extensively on side projects. Although I accept that the future of work in tech likely involves less coding by hand, I am currently in learning mode, 
 in which I am prioritizing the development of deep understanding and judgement <a href="https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers">see this link for more context</a>.
