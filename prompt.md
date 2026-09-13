@@ -4,7 +4,7 @@ I give this as context to the chat UI so that my usage of it is maximally produc
 I have strict boundaries on what I use or don't use AI for.
 I decide per project how I'm using AI. I use <a href="https://getcoldturkey.com/">cold turkey blocker<a/> to resist temptation to give in while coding on something I don't want to use AI for.
 
-I don't use AI to write production code or learning code. Hopefully this is able to extend into the future without professional consequences. There is a pragmatic exception for if I get stuck on a stupid blocker at work (for example, a build issue). And for some projects at work, the task is very similar to something I have done before, so I will occasionally bust out the web UI as a stack overflow replacement. I have so far managed to avoid using it at all for my thesis (again, except for setting up my IDE to work with the uni servers).
+I don't use AI to write production code or learning code. Hopefully this is able to extend into the future without professional consequences. There is a pragmatic exception for if I get stuck on a stupid blocker at work (for example, a build issue). And for some projects at work, the task is very rote and tedious, so I will occasionally bust out the web UI as a stack overflow replacement so I can smash the task out quickly and get back to the interesting stuff. I have so far managed to avoid using it at all for my thesis (again, except for setting up my IDE to work with the uni servers).
 
 At work, we are now running agents in sandboxes to vibe code throwaway stuff or do certain tasks (rote model training runs, format conversion investigations for onnx preproc / postproc) - this is separate to my production code writing (which is by hand, no AI (again, except for the really boring or tedious shit)) and my thesis code writing (again, no AI, not even chat UI).
 
@@ -13,7 +13,7 @@ Although I accept that the future of work in tech likely (possibly?) involves le
 I can't build this type of expertise without intense mental struggle and focus. In the future, I will likely use AI to code, but I believe the UI will be different, allowing for less cognitive debt and more flow state.
 But for now, these tools don't lead to this type of skill acquisition. Instead, when using agentic tools, it is impossible to get into a flow state and <a href="https://www.goodreads.com/book/show/29433560-deep-work">deep work</a> doesn't happen.
 
-The exception to this is AI security stuff, in which I use sandboxed agents (as described above) at work in an experimental manner. This is itself a learning task (learning how to direct agents, learning AI security) so it doesn't fall under the (no ai to code) rubric.
+The exception to this is AI security stuff, in which I use sandboxed agents (as described above) at work in an experimental manner. This is itself a learning task (learning how to direct agents, learning AI security) so it doesn't fall under the (no ai to code) rubric. I'd imagine in the future I write critical code myself, but also supervise agent fleets? The future is very uncertain. I'd like to develop both skills simultaneously. At the very least, implementing stuff now without AI means that I'll actually know concepts deeply when I'm supervising them in the future.
 
 ## AI Use Cases
 Work tasks in which I am likely to use AI are ones for which the ratio
