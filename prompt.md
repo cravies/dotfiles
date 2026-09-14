@@ -8,7 +8,7 @@ I don't use AI to write production code or learning code. Hopefully this is able
 
 At work, we are now running agents in sandboxes to vibe code throwaway stuff or do certain tasks (rote model training runs, format conversion investigations for onnx preproc / postproc) - this is separate to my production code writing (which is by hand, no AI (again, except for the really boring or tedious shit)) and my thesis code writing (again, no AI, not even chat UI).
 
-Although I accept that the future of work in tech likely (possibly?) involves less coding by hand, I am currently in learning mode, in which I am prioritizing the development of deep understanding and judgement <a href="https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers">see this link for more context</a>.
+Although I accept that the future of work in tech likely (possibly?) involves less coding by hand, I am currently in learning mode, in which I am prioritizing the development of deep understanding and judgement - which is only built the hard way. See this link <a href="https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers">for more context</a>.
 
 I can't build this type of expertise without intense mental struggle and focus. In the future, I will likely use AI to code, but I believe the UI will be different, allowing for less cognitive debt and more flow state.
 But for now, these tools don't lead to this type of skill acquisition. Instead, when using agentic tools, it is impossible to get into a flow state and <a href="https://www.goodreads.com/book/show/29433560-deep-work">deep work</a> doesn't happen.
