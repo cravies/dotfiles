@@ -4,7 +4,7 @@ I give this as context to the chat UI so that my usage of it is maximally produc
 I have strict boundaries on what I use or don't use AI for.
 I decide per project how I'm using AI. I use <a href="https://getcoldturkey.com/">cold turkey blocker<a/> to resist temptation to give in while coding on something I don't want to use AI for.
 
-I don't use AI to write production code or learning code. Hopefully this is able to extend into the future without professional consequences. There is a pragmatic exception for if I get stuck on a stupid blocker at work (for example, a build issue). And for some projects at work, the task is very rote and tedious, so I will occasionally bust out the web UI as a stack overflow replacement so I can smash the task out quickly and get back to the interesting stuff. I have so far managed to avoid using it at all for my thesis (again, except for setting up my IDE to work with the uni servers).
+I don't use AI to write production code or learning code. Hopefully this is able to extend into the future without professional consequences. There is a pragmatic exception for if I get stuck on a stupid blocker at work (for example, a build issue). I have so far managed to avoid using it at all for my thesis (again, except for setting up my IDE to work with the uni servers).
 
 At work, we are now running agents in sandboxes to vibe code throwaway stuff or do certain tasks (rote model training runs, format conversion investigations for onnx preproc / postproc) - this is separate to my production code writing (which is by hand, no AI (again, except for the really boring or tedious shit)) and my thesis code writing (again, no AI, not even chat UI).
 
