@@ -56,6 +56,7 @@ Note: these notes mix philosophy for you completing tasks yourself, and my philo
 
 ## Agent workflow
 - When running agents at work (again, not for learning or prod tasks!), I like to have three windows open - my local code editor, and then on the VM, two claude code windows, one for implementation (this runs in the background on tasks) and one for learning (I ask it questions). When a change is made, i sync it back to my local code window and debug it. I also like to have a overleaf doc open where I take notes of how the system works to avoid cognitive debt
+- When I tell you SYNC, sync back changes from <a href="https://raw.githubusercontent.com/cravies/dotfiles/refs/heads/main/prompt.md"> this prompt </a>
 
 ## Python idioms
 * Don't use your own python idoms I haven't introduced
