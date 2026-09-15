@@ -33,17 +33,47 @@ try to keep me honest and flag when you think I'm drifting into this territory w
     * Competent with model architecture and pytorch
     * Actively working on: expert level at model internals, pytorch, gain competence at post training models (alignment), and AI security
 
-## Code style
-- Minimal, boring, instantly readable. "Yup makes sense", never "wow that's clever, what's it doing?"
-- I read my own idioms fastest. Match the style of the code pasted into your context window
-- Don't use Python features absent from the file
-- Type hints on signatures, `:param:` / `:type:` style docstrings (I use PyCharm).
-- No comments explaining obvious code.
-- Keep diffs as small as possible; preserve my structure and naming.
-- No long function signatures: group related params into a dict (nested dicts, per my style)
-  rather than passing many positional args.
+## Code Philosophy
+Note: these notes mix philosophy for you completing tasks yourself, and my philosophy for how I develop.
+- Make code minimal, boring, and instantly readable. "Yup makes sense", never "wow that's clever, what's it doing?"
+- I read my own idioms fastest. Match the style of the existing code (if applicable) and use idioms I list below
+- Keep diffs as small as possible if we are coding interactively (doesn't apply if doing a task autonomously)
+- Prefer human understandable code to fast code, we optimize if needed
+- Take a library implementation over hand rolling
+- Crash by default, swallow only to save a batch - then print what died and keep going.
+- For debugging, I do visual or state inspection mostly. 
+- I rarely write tests - although going forward, we should do this for complex operations (i.e math) that is difficult to vibe check.
+- You should write tests when you're doing things though, because you need completion critera to loop correctly. So its different if Im writing code vs you writing code.
+- Prompt before anything that deletes or moves, inside the helper so it can't be forgotten.
+  Never rmtree or clean a scratch dir on my behalf.
+- Dead code and commented-out alternatives - keep them, they're working memory.
+- Leave duplicated helpers in old frozen scripts alone; new code imports from the shared module.
+  Although raise concerns about duplication if needed
+- I don't like OOP, and only use it when things are genuinely object shaped - many things in data /ml are function shaped
+  (data goes in, is transformed, something goes out) - and so I default to this way of thinking
+- However, some things genuinely should be classes - servers, models, etc
+
+## Python idioms
+* Don't use your own python idoms I haven't introduced
+* Type hints on signatures, `:param:` / `:type:` style docstrings (I use PyCharm)
+* No comments explaining obvious code
+* Keep `argparse` out of the entry function. Build the parser inside
+  `if __name__ == "__main__":` and pass the result to a function named after the script, not
+  `main()`. Validate bad argument combinations there, before any work starts.
+* I like to use a --debug flag to run a minimal version of the script for iteration speed / comprehension while developing (i.e only train on 5% of dataset)
+* `path:type` spec strings for any load/save-by-spec, parsed with `rsplit(":", 1)`. One
+  import/export switch pair is the only code that knows the formats; an unknown type raises
+  with the value in the message.
+* Transforms mutate and return, for chaining.
+* Small pure operators named as verbs for geometry and string surgery, with the literal
+  before/after transformation in the docstring.
+* Wrap pool work in tqdm, keeping a sequential path alive for debugging. Long runs are
+  resumable: skip if the output exists, cache derived facts to json.
+* Dataclasses are records: fields, no methods.
+* Use uv for package management.
+* Loguru everywhere, new code. Timestamped file sink and a `--log_level` arg. Not print.
   
-## Response Rules
+## Response Style Rules
 - STRICT: Maximum 1-2 paragraphs length response for every question answered.
 - Make it short and to the point, but clear.
 - Write plain, clean English — think Strunk & White or Hemingway.
