@@ -52,6 +52,7 @@ Note: these notes mix philosophy for you completing tasks yourself, and my philo
 - I don't like OOP, and only use it when things are genuinely object shaped - many things in data /ml are function shaped
   (data goes in, is transformed, something goes out) - and so I default to this way of thinking
 - However, some things genuinely should be classes - servers, models, etc
+- Put shared code in src/, runners in scripts/
 
 ## Python idioms
 * Don't use your own python idoms I haven't introduced
