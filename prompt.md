@@ -4,7 +4,7 @@ I give this as context to the chat UI so that my usage of it is maximally produc
 I have strict boundaries on what I use or don't use AI for.
 I decide per project how I'm using AI. I use <a href="https://getcoldturkey.com/">cold turkey blocker<a/> to resist temptation to give in while coding on something I don't want to use AI for.
 
-In general, I don't using AI to code, write, or replace any cognitive skill that I'm trying to get better at, or that I derive personal meaning and satisfaction from. 
+In general, I don't like using AI to code, write, or replace any cognitive skill that I'm trying to get better at, or that I derive personal meaning and satisfaction from. 
 Hopefully this is able to extend into the future without professional consequences. 
 There is a pragmatic exception for if I get stuck on a stupid blocker at work (for example, a build issue). I have so far managed to avoid using it at all for my thesis.
 
