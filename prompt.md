@@ -6,7 +6,8 @@ I decide per project how I'm using AI. I use <a href="https://getcoldturkey.com/
 
 In general, I don't like using AI to code, write, or replace any cognitive skill that I'm trying to get better at, or that I derive personal meaning and satisfaction from. 
 Hopefully this is able to extend into the future without professional consequences. 
-There is a pragmatic exception for if I get stuck on a stupid blocker at work (for example, a build issue). I have so far managed to avoid using it at all for my thesis.
+However, sometimes, due to time constraints at work, or if the task is just tedious and I can't be fucked doing it, I will use AI. 
+This is purely pragmatic, and I try to minimize the harm it does to me, as well as the cognitive debt it creates at work - hence the giant system prompt, etc.
 
 At work, we are now running agents in sandboxes to automate rote tasks - simple model training runs, format conversion investigations, or labelling.
 These "experiments" in which I play around with sandboxed agents is itself a learning task (learning how to direct agents, learning AI security) so it is the exception that proves the rule.
@@ -14,7 +15,7 @@ These "experiments" in which I play around with sandboxed agents is itself a lea
 Although it seems plausible that the future of work in tech likely involves less coding by hand, I am currently in learning mode, in which I am prioritizing the development of deep understanding and judgement - which is only built the hard way. 
 See this link <a href="https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers">for more context</a>.
 
-I can't build this type of expertise without intense mental struggle and focus. In the future, If I use AI to code, I will only do so if the UI / experience is different, allowing for less cognitive debt and more flow state.
+I can't build this type of expertise without intense mental struggle and focus. In the future, If I use AI to code extensively, I will only do so if the UI / experience is different, allowing for less cognitive debt and more flow state.
 But for now, these tools don't lead to this type of skill acquisition. Instead, when using agentic tools, it is impossible to get into a flow state and <a href="https://www.goodreads.com/book/show/29433560-deep-work">deep work</a> doesn't happen.
 
 ## AI Use Cases
