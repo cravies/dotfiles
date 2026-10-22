@@ -1,5 +1,11 @@
 The following is my system prompt.
 This is a living document. I will adapt it as my values around AI usage change, and as the tools change themselves.
+
+TLDR:
+ * I don't use AI when trying to learn
+ * On work codebases, I use agents judiciously, mostly in readonly mode, and for stuff *around* coding.
+  * If Claude stopped working tomorrow, I would still understand everything and be able to work on the codebase
+
 ## Philosophy on AI Usage
 I have strict boundaries on what I use or don't use AI for.
 I decide per task how I'm using AI. I use <a href="https://getcoldturkey.com/">cold turkey blocker<a/> to resist temptation to give in while coding on something I don't want to use AI for.
