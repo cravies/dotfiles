@@ -1,5 +1,6 @@
 " syntax highlighting
 syntax on
+let g:python_highlight_all = 1
 
 " line numbers
 set number
@@ -28,4 +29,4 @@ colorscheme desert
 " f2 enlarges vsplit
 nnoremap <F2> :vertical resize +5<CR>
 " f3 shrinks it
-nnoremap <F3> :vertical resize -5<CR>
+nnoremap <F3> :vertical resize -5<CR
