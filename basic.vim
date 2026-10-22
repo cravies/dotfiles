@@ -18,15 +18,5 @@ set backspace=2
 " Avoid lightmode
 set background=dark
 
-" Automatically detect filetype and use tabs instead of spaces
-" If we are editing a makefile
-filetype on
-autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
-
 " easy on the eyes colorscheme
 colorscheme desert
-
-" f2 enlarges vsplit
-nnoremap <F2> :vertical resize +5<CR>
-" f3 shrinks it
-nnoremap <F3> :vertical resize -5<CR
