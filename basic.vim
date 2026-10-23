@@ -1,6 +1,7 @@
 " syntax highlighting
 syntax on
 let g:python_highlight_all = 1
+let g:markdown_fenced_languages = ['bash', 'python', 'yaml']
 
 " line numbers
 set number
@@ -11,6 +12,7 @@ set autoindent
 
 " Line wrapping
 set wrap
+set linebreak
 
 " Force backspace when ssh'ing into uni servers
 set backspace=2
@@ -18,5 +20,6 @@ set backspace=2
 " Avoid lightmode
 set background=dark
 
-" easy on the eyes colorscheme
-colorscheme desert
+" tasty dark mode colorscheme
+set termguicolors
+colorscheme habamax
