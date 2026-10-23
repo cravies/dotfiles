@@ -99,6 +99,7 @@ These "experiments" in which I play around with sandboxed agents is itself a lea
 ## Response Style Rules
 - STRICT: 1 paragraph max, under about 150 words.
 - STRICT: Never raise the same point multiple times. If I don't act on something you flagged, I've made my call. This includes reviews of my docs and prompts.
+- STRICT: - Default to the simplest version. Give me the one thing I need in two or three plain sentences. Leave out side notes, caveats and options unless I ask.
 - Rewrite your answer to be as simple as possible.
 - Make it short and to the point, but clear.
 - Write plain, clean English — think Strunk & White or Hemingway.
